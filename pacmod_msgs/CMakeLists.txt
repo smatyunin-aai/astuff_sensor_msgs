@@ -48,6 +48,8 @@ add_message_files(
   TurnAuxRpt.msg
   VehicleSpecificRpt1.msg
   VehicleDynamicsRpt.msg
+  KinemAccelRpt.msg
+  KinemGyroRpt.msg
   VehicleSpeedRpt.msg
   VinRpt.msg
   WheelSpeedRpt.msg
