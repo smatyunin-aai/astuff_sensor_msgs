@@ -34,10 +34,6 @@ add_message_files(
   RearLightsRpt.msg
   ShiftAuxRpt.msg
   SteerAuxRpt.msg
-  SteeringPIDRpt1.msg
-  SteeringPIDRpt2.msg
-  SteeringPIDRpt3.msg
-  SteeringPIDRpt4.msg
   SteerSystemCmd.msg
   SystemCmdBool.msg
   SystemCmdFloat.msg
