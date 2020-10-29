@@ -47,3 +47,5 @@ bool internal_supply_voltage_fault # True if any fault has occurred in power sup
 bool supervisory_timeout           # True if timeout occurred on SUPERVISORY_CTRL message when supervisory enable is required 
 bool supervisory_sanity_fault      # True if a fault occurred in SUPERVISORY_CTRL message by customer ECU.
 bool watchdog_sanity_fault         # True if a counter fault has occurred in COMPONENT_RPT of watchdog
+bool watchdog_system_present_fault # True if WATCHDOG system present signal in the component report received from the 
+                                   # watchdog component is FALSE or any other system present signal is TRUE
